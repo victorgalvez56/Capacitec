@@ -13,10 +13,10 @@ const WelcomeScreen = () => {
                     onVisible={(anchor: any) => console.log(`Visible ${anchor.id}`)}
                     targetImage={icons.welcome1}
                 >
-                    {/* <mesh position={[0, 0, -5]}>
+                    <mesh position={[0, 0, -5]}>
                         <sphereBufferGeometry />
                         <meshStandardMaterial color="hotpink" />
-                    </mesh> */}
+                    </mesh>
                 </ImageTracker>
                 {/* <directionalLight position={[2.5, 8, 5]} intensity={1.5} /> */}
             </ZapparCanvas>
